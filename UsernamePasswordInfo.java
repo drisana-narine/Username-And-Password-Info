@@ -72,7 +72,7 @@ public class UsernamePasswordInfo {
             String password = keyboard.next();
             outputStream.println (site+" "+username+" "+password);//prints to file
             keyboard.nextLine();
-            System.out.println("Another password?: ");
+            System.out.println("More information?: ");
             response= keyboard.nextLine();
             System.out.println("----------------------------------");
         }while(response.equalsIgnoreCase("yes"));
